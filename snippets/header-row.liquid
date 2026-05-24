@@ -90,4 +90,12 @@
         {% endunless %}
       {% endfor %}
 
-      {% if column == 'left' and row == '
+      {% if column == 'left' and row == 'top' %}
+        <div class="header__gender-buttons">
+          <a href="/collections/hombres" class="header__gender-btn">Hombre</a>
+          <a href="/collections/mujeres" class="header__gender-btn">Mujer</a>
+        </div>
+      {% endif %}
+    </div>
+  {%- endif -%}
+{%- endfor -%}
