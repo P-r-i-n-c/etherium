@@ -4213,3 +4213,18 @@ product-recommendations:has([data-has-recommendations='false']) {
     translate: 0px var(--atc-destination, 0px);
   }
 }
+
+/* ─── ETHERIUM title: mobile responsive fix ─────────────────────── */
+@media screen and (max-width: 749px) {
+  .text-block--text_YLPk4p {
+    --font-size: clamp(2rem, 13vw, 4rem) !important;
+  }
+
+  .text-block--text_YLPk4p h1 {
+    font-size: var(--font-size) !important;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
