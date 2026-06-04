@@ -73,8 +73,8 @@
                 "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 95,
-                "padding-inline-end": 0
+                "padding-inline-start": 6,
+                "padding-inline-end": 100
               },
               "blocks": {}
             },
@@ -98,8 +98,8 @@
                 "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 97,
-                "padding-inline-end": 0
+                "padding-inline-start": 1,
+                "padding-inline-end": 100
               },
               "blocks": {}
             }
@@ -127,7 +127,7 @@
             "label": "Sign up",
             "integrated_button": true,
             "button_type_preset": "paragraph",
-            "padding-block-start": 0,
+            "padding-block-start": 87,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 79
@@ -146,6 +146,17 @@
         "color_scheme": "scheme-1",
         "padding-block-start": 30,
         "padding-block-end": 30
+      }
+    },
+    "custom_liquid_XGdmPc": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; align-items: center; gap: 16px; padding: 20px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0711/4771/6717/files/LOGO_ETHERIUM.jpg?v=1780588032\" alt=\"ETHERIUM\" style=\"width: 50px; height: 50px; object-fit: contain; border-radius: 6px;\">\n  <div>\n    <div style=\"font-weight: 700; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase;\">ETHERIUM</div>\n    <div style=\"font-size: 11px; color: #888; letter-spacing: 0.05em;\">Streetwear premium · Colombia</div>\n  </div>\n</div>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "footer_utilities_jLGE8U": {
@@ -206,6 +217,7 @@
   },
   "order": [
     "footer_m9NzUG",
+    "custom_liquid_XGdmPc",
     "footer_utilities_jLGE8U"
   ]
 }

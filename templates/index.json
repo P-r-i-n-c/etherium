@@ -431,6 +431,7 @@
         "text_BfMRgz",
         "text_hk8Agh"
       ],
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
@@ -464,11 +465,23 @@
         "padding-block-start": 100,
         "padding-block-end": 100
       }
+    },
+    "custom_liquid_pgk68A": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display: grid; grid-template-columns: 1fr 1fr; width: 100%; min-height: 500px; gap: 0;\">\n  \n  <!-- Panel Izquierdo: Colección Limitada -->\n  <a href=\"/collections/all\" style=\"position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; text-decoration: none; min-height: 500px; background: linear-gradient(135deg, #0a0a0a, #1a1a1a);\">\n    <div style=\"position: absolute; inset: 0; background: rgba(0,0,0,0.3);\"></div>\n    <div style=\"position: relative; z-index: 1; text-align: center; color: #fff;\">\n      <div style=\"font-size: 12px; letter-spacing: 0.3em; color: #888; margin-bottom: 12px;\">ETHERIUM 2026</div>\n      <div style=\"font-size: 36px; font-weight: 800; letter-spacing: 0.1em; margin-bottom: 20px;\">COLECCION LIMITADA</div>\n      <div style=\"display: inline-block; border: 1.5px solid #fff; padding: 12px 32px; font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: #fff;\">VER COLECCIÓN</div>\n    </div>\n  </a>\n  \n  <!-- Panel Derecho: Logo -->\n  <div style=\"display: flex; align-items: center; justify-content: center; min-height: 500px; background: #000;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0711/4771/6717/files/LOGO_ETHERIUM.jpg?v=1780588032\" alt=\"ETHERIUM\" style=\"width: 280px; height: 280px; object-fit: contain;\">\n  </div>\n  \n</div>\n\n<style>\n  .shopify-section:has([style*=\"grid-template-columns: 1fr 1fr\"]) {\n    padding: 0 !important;\n    margin: 0 !important;\n    max-width: 100% !important;\n  }\n  .shopify-section:has([style*=\"grid-template-columns: 1fr 1fr\"]) .section {\n    padding: 0 !important;\n    max-width: 100% !important;\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
     "product_list_fa6P9H",
-    "hero_AHHfBt"
+    "hero_AHHfBt",
+    "custom_liquid_pgk68A"
   ]
 }
