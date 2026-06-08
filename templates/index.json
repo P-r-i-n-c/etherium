@@ -12,21 +12,6 @@
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
-        "ai_gen_block_f7ef5bc_Hp3djj": {
-          "type": "ai_gen_block_f7ef5bc",
-          "settings": {
-            "chess_image": "shopify://shop_images/54327d34-8b51-47e7-aa11-69ef1e1e08f0.png",
-            "image_max_width": 150,
-            "desktop_width_percent": 85,
-            "overlap_distance": 0,
-            "padding": 0,
-            "float_distance": 15,
-            "animation_duration": 3,
-            "rotation_start": 4,
-            "rotation_end": -1
-          },
-          "blocks": {}
-        },
         "text_YLPk4p": {
           "type": "text",
           "name": "t:names.heading",
@@ -96,7 +81,6 @@
         }
       },
       "block_order": [
-        "ai_gen_block_f7ef5bc_Hp3djj",
         "text_YLPk4p",
         "text_yyq7FV",
         "button_hY8jVh"
