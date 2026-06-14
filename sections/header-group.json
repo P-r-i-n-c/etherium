@@ -78,13 +78,13 @@
             "color_scheme": "",
             "type_font_primary_size": "0.875rem",
             "menu_font_style": "inverse_large",
-            "type_font_primary_link": "body",
-            "type_case_primary_link": "none",
+            "type_font_primary_link": "heading",
+            "type_case_primary_link": "uppercase",
             "menu_style": "featured_products",
             "featured_products_aspect_ratio": "4 / 5",
             "featured_collections_aspect_ratio": "16 / 9",
             "image_border_radius": 0,
-            "navigation_bar": false,
+            "navigation_bar": true,
             "color_scheme_navigation_bar": "",
             "drawer_accordion": false,
             "drawer_accordion_expand_first": false,
@@ -96,7 +96,8 @@
       "custom_css": [
         "/* Header Premium Etherium */.header {background: #f0ece6 !important; padding: 15px 0 !important; border-bottom: 0.5px solid #ccc;}",
         ".header__heading-logo {margin: 0 auto !important;}",
-        ".header__menu-item {font-family: \"Space Mono\", monospace !important; text-transform: uppercase !important; font-size: 11px !important; color: #0a0a0a !important;}"
+        ".header__menu-item {font-family: \"Space Mono\", monospace !important; text-transform: uppercase !important; font-size: 11px !important; color: #0a0a0a !important;}",
+        ".header__navigation-bar,.header__menu-bar {display: none !important;}"
       ],
       "settings": {
         "logo_position": "center",
@@ -138,7 +139,18 @@
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<style>\n.header__gender-buttons,\n.header__navigation-bar-row {\n  display: none !important;\n}\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "custom_liquid_gdPYV6": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap\" rel=\"stylesheet\">\n<style>\n.header__gender-buttons,\n.header__navigation-bar-row {\n  display: none !important;\n}\n.header-menu .menu-list__link,\n.header__menu-item,\n.menu-list__link {\n  font-family: \"Montserrat\", sans-serif !important;\n  text-transform: uppercase !important;\n  font-size: 12px !important;\n  font-weight: 500 !important;\n  letter-spacing: 0.12em !important;\n  color: #0a0a0a !important;\n}\n</style>",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 0,
@@ -150,6 +162,7 @@
     "header_announcements_9jGBFp",
     "custom_liquid_cjJRjx",
     "header_section",
-    "custom_liquid_AB3AYF"
+    "custom_liquid_AB3AYF",
+    "custom_liquid_gdPYV6"
   ]
 }
