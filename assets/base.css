@@ -4227,15 +4227,31 @@ product-recommendations:has([data-has-recommendations='false']) {
     line-height: 1.1 !important;
   }
 }
-/* Menú móvil estilo Monastery */
+/* ===== Menú móvil estilo Monastery ===== */
 @media screen and (max-width: 749px) {
+
   .menu-drawer__menu-item,
   .menu-drawer summary {
-    font-size: 18px !important;
-    font-weight: 400 !important;
-    letter-spacing: 0.06em !important;
-    text-transform: uppercase;
-    padding-top: 14px !important;
-    padding-bottom: 14px !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    line-height: 1.2 !important;
+    padding: 10px 0 !important;
+  }
+
+  .menu-drawer__submenu .menu-drawer__menu-item {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.08em !important;
+    padding: 8px 0 !important;
+  }
+
+  .menu-drawer__inner {
+    padding-top: 18px !important;
+  }
+
+  .menu-drawer__navigation {
+    gap: 0 !important;
   }
 }
