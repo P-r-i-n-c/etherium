@@ -152,7 +152,7 @@
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "<div style=\"display: flex; align-items: center; gap: 16px; padding: 20px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0711/4771/6717/files/LOGO_ETHERIUM.jpg?v=1780588032\" alt=\"ETHERIUM\" style=\"width: 50px; height: 50px; object-fit: contain; border-radius: 6px;\">\n  <div>\n    <div style=\"font-weight: 700; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase;\">ETHERIUM</div>\n    <div style=\"font-size: 11px; color: #888; letter-spacing: 0.05em;\">Streetwear premium · Colombia</div>\n  </div>\n</div>",
+        "custom_liquid": "<div style=\"display: flex; align-items: center; gap: 16px; padding: 20px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0711/4771/6717/files/IMG_3184.jpg?v=1788980343\" alt=\"ETHERIUM\" style=\"width: 50px; height: 50px; object-fit: contain; border-radius: 6px;\">\n  <div>\n    <div style=\"font-weight: 700; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase;\">ETHERIUM</div>\n    <div style=\"font-size: 11px; color: #888; letter-spacing: 0.05em;\">Streetwear premium · Colombia</div>\n  </div>\n</div>",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 0,
